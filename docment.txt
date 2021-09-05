@@ -1,0 +1,8 @@
+les differentes tailles d'ecran
+
+xs < 768px  => extra small(phone, smartphone...)   all
+sm >= 768px  => small(tablette)
+md >= 992px  => Medium(desktop)
+lg >= 1200px => large desktop de bureau
+
+ctrl + H pour remplacer un bout de code

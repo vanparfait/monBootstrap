@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--cest la partie visible de notre page web(la largeur du navigateur) -->
+    <title>Bootstrap</title>
+    <!--PARTIE BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container-fluid"> <!--container-fluid prend toute la page de l'ecran-->
+    <div class="row">
+        <form style="margin: 50px;">
+            <div class="form-group input-lg">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="comment" cols="15" rows="5" placeholder="Commentez ici"></textarea>
+            </div>
+                <label class="checkbox"><input type="checkbox" id="checkbox" value="" disabled>Option 1</label>
+                <label class="checkbox"><input type="checkbox" name="checkbox" id="checkbox">Option 2</label>
+            <div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+        </form>
+    </div>    
+</div>    
+    
+</body>
+</html>
